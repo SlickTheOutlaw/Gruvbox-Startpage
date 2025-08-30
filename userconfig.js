@@ -3,15 +3,16 @@ let saved_config = JSON.parse(localStorage.getItem("CONFIG"));
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: 'Matão, São Paulo',
-    scale: "C",
+    location: 'College Station, Texas',
+    scale: "F",
   },
   clock: {
-    format: "h:i p",
+    format: "g:i a | M d, Y",
     iconColor: "#ea6962",
   },
   search: {
     engines: {
+      e: ["https://www.ecosia.org/", "Ecosia"],
       g: ["https://google.com/search?q=", "Google"],
       d: ["https://duckduckgo.com/html?q=", "DuckDuckGo"],
       y: ["https://youtube.com/results?search_query=", "Youtube"],
@@ -26,7 +27,7 @@ const default_config = {
   disabled: [],
   localIcons: false,
   fastlink: "https://chat.openai.com/",
-  openLastVisitedTab: true,
+  openLastVisitedTab: false,
   tabs: [
     {
       name: "chi ll",
