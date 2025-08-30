@@ -12,7 +12,7 @@ const default_config = {
   },
   search: {
     engines: {
-      e: ["https://www.ecosia.org/", "Ecosia"],
+      e: ["https://www.ecosia.org/search?q=", "Ecosia"],
       g: ["https://google.com/search?q=", "Google"],
       d: ["https://duckduckgo.com/html?q=", "DuckDuckGo"],
       y: ["https://youtube.com/results?search_query=", "Youtube"],
